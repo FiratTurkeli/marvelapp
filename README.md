@@ -33,12 +33,9 @@ Herhangi bir ek bilgi buraya gelir
 
 ## Screenshots
 
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/1dilagb)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/a7b9fl6)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/jc6d18w)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/p5gu96o)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/45ffyzz)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/3s3wjy4)
-
-
-  
+![](screenshots/Screenshot_1664040051.png)
+![](screenshots/Screenshot_1664040059.png)
+![](screenshots/Screenshot_1664040063.png)
+![](screenshots/Screenshot_1664040091.png)
+![](screenshots/Screenshot_1664040126.png)
+![](screenshots/Screenshot_1664040135.png)
