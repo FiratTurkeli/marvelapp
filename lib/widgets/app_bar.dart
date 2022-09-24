@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:marvelapp/bloc/meta/meta_bloc.dart';
-import 'package:marvelapp/screens/metamask/wallet_screen_backup.dart';
 import 'package:marvelapp/screens/metamask/wallet_screen.dart';
 import '../constants/colors.dart';
 
@@ -45,7 +43,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget{
                     context: context,
                     isScrollControlled: true,
                     builder: (context){
-                      return  WalletScreen(); // MetamaskScreen(); --> If you use cubit (backup)
+                      return const WalletScreen(); // MetamaskScreen(); --> If you use cubit (backup)
                     }
 
                 );

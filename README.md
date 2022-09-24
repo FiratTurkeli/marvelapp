@@ -33,6 +33,6 @@ Herhangi bir ek bilgi buraya gelir
 
 ## Screenshots
 
-!
+![](screenshots/Screenshot_1664040051.png)![](screenshots/Screenshot_1664040059.png)![](screenshots/Screenshot_1664040063.png)![](screenshots/Screenshot_1664040091.png)![](screenshots/Screenshot_1664040126.png)![](screenshots/Screenshot_1664040135.png)
 
   

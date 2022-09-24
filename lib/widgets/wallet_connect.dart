@@ -1,9 +1,7 @@
 
 import 'package:flutter/material.dart';
-
 import '../constants/colors.dart';
 import '../constants/text_style.dart';
-import '../screens/home_screen.dart';
 
 class WalletConnectView extends StatelessWidget {
   var session;

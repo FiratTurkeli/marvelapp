@@ -3,10 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:marvelapp/constants/background.dart';
 import 'package:marvelapp/constants/colors.dart';
 import 'package:marvelapp/constants/text_style.dart';
-import 'package:marvelapp/model/comic_char.dart';
 import 'package:marvelapp/widgets/app_bar.dart';
 import '../bloc/character/char_bloc.dart';
-import '../repo/char_repository.dart';
 import '../bloc/meta/meta_bloc.dart';
 import '../widgets/character_card_view.dart';
 
