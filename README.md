@@ -33,12 +33,12 @@ Herhangi bir ek bilgi buraya gelir
 
 ## Screenshots
 
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/1dilagb)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/a7b9fl6)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/jc6d18w)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/p5gu96o)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/45ffyzz)
-![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/3s3wjy4)
+![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/1dilagb?text=App+Screenshot+Here)
+![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/a7b9fl6?text=App+Screenshot+Here)
+![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/jc6d18w?text=App+Screenshot+Here)
+![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/p5gu96o?text=App+Screenshot+Here)
+![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/45ffyzz?text=App+Screenshot+Here)
+![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/3s3wjy4?text=App+Screenshot+Here)
 
 
   
