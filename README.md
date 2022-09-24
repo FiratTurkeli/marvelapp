@@ -33,12 +33,12 @@ Herhangi bir ek bilgi buraya gelir
 
 ## Screenshots
 
-<img src= "https://www.hizliresim.com/1dilagb">
-<img src= "https://www.hizliresim.com/a7b9fl6">
-<img src= "https://www.hizliresim.com/jc6d18w">
-<img src= "https://www.hizliresim.com/p5gu96o">
-<img src= "https://www.hizliresim.com/45ffyzz">
-<img src= "https://www.hizliresim.com/3s3wjy4">
+<img src= "https://www.hizliresim.com/1dilagb" width="100" height="100"/>
+<img src= "https://www.hizliresim.com/a7b9fl6" width="100" height="100"/>
+<img src= "https://www.hizliresim.com/jc6d18w" width="100" height="100"/>
+<img src= "https://www.hizliresim.com/p5gu96o" width="100" height="100"/>
+<img src= "https://www.hizliresim.com/45ffyzz" width="100" height="100"/>
+<img src= "https://www.hizliresim.com/3s3wjy4" width="100" height="100"/>
 
 ![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/1dilagb)
 ![Uygulama Ekran Görüntüsü](https://www.hizliresim.com/a7b9fl6)
