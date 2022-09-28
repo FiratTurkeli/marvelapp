@@ -9,7 +9,7 @@ class CharacterRepositoryImpl implements CharacterRepository {
   @override
   // fetch all characters
   Future<List<MarvelCharacterModel>> fetchAllCharacters() {
-    return service.get100Data(0);
+    return service.getDatas(0);
   }
 
 }

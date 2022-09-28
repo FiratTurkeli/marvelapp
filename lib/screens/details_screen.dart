@@ -119,8 +119,8 @@ class _CharacterDetailsScreenState extends State<CharacterDetailsScreen> with Ti
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: <Widget>[
           buildModifiedDate(characterModified),
-          buildEventTitle(characterName),
-          buildAboutEvent(characterDescription),
+          buildCharacterTitle(characterName),
+          buildAboutCharacter(characterDescription),
 
         ],
       ),
@@ -209,7 +209,7 @@ class _CharacterDetailsScreenState extends State<CharacterDetailsScreen> with Ti
     );
   }
 
-  Widget buildEventTitle(String name) {
+  Widget buildCharacterTitle(String name) {
     return Text(
       name,
       style: nameStyle.copyWith(fontSize: 32),
@@ -250,7 +250,7 @@ class _CharacterDetailsScreenState extends State<CharacterDetailsScreen> with Ti
     );
   }
 
-  Widget buildAboutEvent(String description) {
+  Widget buildAboutCharacter(String description) {
     return
       description == '' ?
       Column(

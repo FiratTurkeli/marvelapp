@@ -17,56 +17,18 @@ class HttpHelper {
   }
 
 
-  // creating data list by number of elements
-
-  //
-  Future<List<MarvelCharacterModel>>  getData() async {
-    List<MarvelCharacterModel> listChar = [];
-    int totalElements = 0;
-    int currentElements = 0; // statring element to send offset
-
-    totalElements = await getTotalElements();
-    while(currentElements < totalElements){
-      listChar.addAll(await get100Data(currentElements));
-      currentElements += 100;
-    }
-    return listChar;
-  }
 
 
-    //get all characters count
-    Future<int> getTotalElements() async {
-      int totalElements = 0;
-      int timestamp = DateTime.now().millisecondsSinceEpoch;
-      Uri url = Uri.https(baseUrl, '/v1/public/characters', {
-        'apikey': apiKey,
-        'hash': getHash(timestamp),
-        'ts': '$timestamp',
-      });
-
-      Response response = await dio.get(url.toString());
-      if (response.statusCode == 200) {
-        var jsonResponse = response.data;
-        var data = jsonResponse['data'] as Map<String, dynamic>;
-        totalElements = data['total'];
-      } else {
-        print(
-            'Request failed with status: ${response.statusCode} ${response.data}');
-      }
-      return totalElements;
-    }
-
-
-
-  //method that will work current elements less than total elements
-  Future<List<MarvelCharacterModel>> get100Data(int offset) async {
+  //our method that will give us all the characters
+  Future<List<MarvelCharacterModel>> getDatas(int offset) async {
     List<MarvelCharacterModel> listChar = [];
     int timestamp = DateTime.now().millisecondsSinceEpoch;
     Uri url = Uri.https(baseUrl, '/v1/public/characters', {
       'apikey': apiKey,
       'hash': getHash(timestamp),
       'ts': '$timestamp',
-      'limit': '100'
+      'limit': '100',
+      //'offset' : offset
     });
 
     Response response = await dio.get(url.toString());
@@ -85,6 +47,45 @@ class HttpHelper {
     }
     return listChar;
   }
+
+  // creating data list by number of elements !!!if you need!!!
+  Future<List<MarvelCharacterModel>>  getData() async {
+    List<MarvelCharacterModel> listChar = [];
+    int totalElements = 0;
+    int currentElements = 0; // statring element to send offset
+
+    totalElements = await getTotalElements();
+    while(currentElements < totalElements){
+      listChar.addAll(await getDatas(currentElements));
+      currentElements += 100;
+    }
+    return listChar;
+  }
+
+
+  //get all characters count !!!if you need!!!
+  Future<int> getTotalElements() async {
+    int totalElements = 0;
+    int timestamp = DateTime.now().millisecondsSinceEpoch;
+    Uri url = Uri.https(baseUrl, '/v1/public/characters', {
+      'apikey': apiKey,
+      'hash': getHash(timestamp),
+      'ts': '$timestamp',
+    });
+
+    Response response = await dio.get(url.toString());
+    if (response.statusCode == 200) {
+      var jsonResponse = response.data;
+      var data = jsonResponse['data'] as Map<String, dynamic>;
+      totalElements = data['total'];
+    } else {
+      print(
+          'Request failed with status: ${response.statusCode} ${response.data}');
+    }
+    return totalElements;
+  }
+
+
 
 
   //request to get thumbnailurl listings if needed

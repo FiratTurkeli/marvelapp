@@ -25,10 +25,9 @@ A Mobile Application shows Marvel Characters and connect to MetaMask
 - The project structure is supported by models, screens, constants and services based on bloc and constant widgets.
   lib -> bloc, constants, model, repo, services, widgets
 
+- For an inactive backup bloc cubit for wallet integration. If you open //MetamaskScreen() in the lib/widgest/app_bar.dart 46th line and If you activate line 31 in main, the backup bloc cubit will work.
 
-## Ekler
 
-Herhangi bir ek bilgi buraya gelir
 
 
 ## Screenshots
